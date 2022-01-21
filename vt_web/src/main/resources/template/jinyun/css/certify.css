@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width:100%;
+	margin: 0 auto;
+}
+
+#certify .swiper-container {
+	padding-bottom: 60px;
+}
+
+#certify  .swiper-slide {
+	width: 255px;
+	min-height: 354px;
+	/* background: #fff; */
+	
+	text-align: center;
+}
+#certify  .swiper-slide img{
+	display:block;
+	/* opacity: 0.3; */
+	margin: 0 auto;
+	box-shadow: 0 0px 10px #666;
+}
+#certify .swiper-slide-active img{
+	opacity: 1;
+}
+#certify  .swiper-slide.swiper-slide-active p{
+	display: block;
+}
+/* #certify .swiper-slide-prev img,
+#certify .swiper-slide-next img{
+	opacity: 0.6;
+} */
+#certify  .swiper-slide p {
+	line-height: 30px;
+	padding-top: 30px;
+	text-align: center;
+	color: #636363;
+	font-size:24px;
+	margin: 0;
+	color: #333333;
+	display: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space:nowrap ;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev{
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../img/prev.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next{
+	right:50%;
+	width: 45px;
+	height: 45px;
+	background: url(../img/next.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}
+
+@media screen and (max-width:767px) {
+	#certify .swiper-slide{
+		height: auto;
+		width: 50%;
+		margin: 0 30px;
+		/* box-shadow: 0 0 10px #ccc; */
+	}
+	#certify  .swiper-slide img{
+		display:block;
+		/* opacity: 0.3; */
+		margin: 0 auto;
+		box-shadow: 0 0px 10px #ccc;
+	}
+	.shudanDiv2 .wrap{
+		width: 100%;
+	}
+	#certify .swiper-slide p{
+		font-size: 18px;
+		line-height: 24px;
+	}
+}

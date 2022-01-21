@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>高德地图调用</title>
+		<link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" />
+		<script src="https://a.amap.com/jsapi_demos/static/demo-center/js/demoutils.js"></script>
+		<script src="https://webapi.amap.com/maps?v=1.4.15&key=5db65bbf4daf12df7c8c2eb383c2de06"></script>
+
+		<style type="text/css">
+			html,
+			body {
+				font-size: 14px;
+				line-height: 20px;
+				margin: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div style="width:100%;height:100%;" id="container">
+		</div>
+
+		<script type="text/javascript">
+			//初始化地图对象，加载地图
+			var map = new AMap.Map('container', {
+				zoom: 18,
+				center: [120.733199, 31.26039]
+			});
+			var marker = new AMap.Marker({
+			    position: new AMap.LngLat(120.733199, 31.26039),  
+			    title: '晶云药物'
+			});
+			
+			// 将创建的点标记添加到已有的地图实例：
+			map.add(marker);
+			// 同时引入工具条插件，比例尺插件和鹰眼插件
+			// AMap.plugin([
+			//     'AMap.ToolBar',
+			//     // 'AMap.Scale',
+			//     'AMap.OverView',
+			//     // 'AMap.MapType',
+			//     // 'AMap.Geolocation',
+			// ], function(){
+			//     // 在图面添加工具条控件，工具条控件集成了缩放、平移、定位等功能按钮在内的组合控件
+			//     map.addControl(new AMap.ToolBar());
+			
+			//     // 在图面添加比例尺控件，展示地图在当前层级和纬度下的比例尺
+			//     map.addControl(new AMap.Scale());
+			
+			//     // 在图面添加鹰眼控件，在地图右下角显示地图的缩略图
+			//     map.addControl(new AMap.OverView({isOpen:true}));
+			   
+			//     // 在图面添加类别切换控件，实现默认图层与卫星图、实施交通图层之间切换的控制
+			//     map.addControl(new AMap.MapType());
+			   
+			//     // 在图面添加定位控件，用来获取和展示用户主机所在的经纬度位置
+			//     map.addControl(new AMap.Geolocation());
+			// });
+		</script>
+
+		<!-- 其他页面引用高德地图 -->
+		<iframe src="ditu.html" frameborder="0" width="955" height="500" scrolling="no"></iframe>
+
+	</body>
+
+</html>

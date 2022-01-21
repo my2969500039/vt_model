@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>结晶工艺开发</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body>
+		<!--header-->
+		<header>
+
+			<div class="wrap">
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<a href="index.html" class="logo2"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp">Open Menu</button>
+
+				<div id="dl-menu" class="dl-menuwrapper">
+
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+
+					<ul class="dl-menu">
+
+						<li><a href="index.html">首页</a></li>
+
+						<li><a href="about.html">关于我们</a></li>
+
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+
+								</div>
+							</ul>
+						</li>
+
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<!-- <ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li>
+
+							</ul> -->
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+						
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+						
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--banner内页-->
+		<div class="banner_nei">
+			<p class="banner_p2">
+
+				结晶工艺开发
+				<span>晶云团队秉承质量源于设计理念，基于关键质量属性和
+					关键工艺参数，开发出稳定、可重现、可转移的结晶工
+					艺，不断满足客户在化学药物结晶方面的需求。</span>
+
+
+			</p>
+			<img src="img/gongyi.png" class="hideDiv">
+			<img src="img/gonyi_sj.png" class="showDiv" >
+		</div>
+		<!--banner结束-->
+		<!--二级导航-->
+		<p class="nav_btn showDiv">结晶工艺开发<span class="arrow-bottom"></span></p>
+		<div class="nav_nei">
+
+			<ul>
+				<li><a href="jingxing.html">晶型研究<span></span></a></li>
+				<li><a href="jingxing_gy.html" class="now">结晶工艺开发<span></span></a></li>
+				<li><a href="jingxing_cf.html">处方前研究<span></span></a></li>
+				<li><a href="jingxing_jg.html">结构确证<span></span></a></li>
+				<li><a href="jingxing_lh.html">理化分析<span></span></a></li>
+			</ul>
+		</div>
+		<!--二级导航结束-->
+
+		<!--开发流程-->
+		<div class="jingxingDiv2 gongyiDiv1">
+			<div class="wrap">
+				<!--左侧介绍-->
+				<div class="textDiv">
+					<p class="title_p">结晶工艺开发流程</p>
+					<p class="text_p">
+						结晶是制药生产中必不可少的操作。一方面，大部分活性药物成分（API）是以固
+						体形式进行开发，其中又以晶体形式最为常见；另一方面，在整个制药行业的历史
+						中，结晶一直是最重要的分离和纯化手段之一。<br><br>
+
+						结晶工艺开发是一个系统工程，建立在充分理解目标晶型的理化性质以及晶型间相
+						互转化关系的基础上。选择合适的结晶体系和结晶方式，辅以在线监控设备，能够
+						有效控制目标晶型的选择性结晶，并确保纯度 ( 包括手性纯度 ) 、颗粒属性、收率、
+						溶剂残留等各项指标满足要求。<br><br>
+					</p>
+				</div>
+				<!--左侧介绍结束-->
+				<!--手机端图片-->
+				<img src="img/gongyi2.png" class="showDiv">
+				<!--手机端图片结束-->
+				<!--右侧图片-->
+				<div class="imgDiv_fr hideDiv">
+					<!--浮动列表-->
+					<ul>
+						<li>
+							<a href="#kongzhi">
+								<p class="case_more">查看案例</p>
+								<img src="img/gongyi5.png">
+							</a>
+						</li>
+						<li>
+							<a href="#tisheng">
+								<p class="case_more">查看案例</p>
+								<img src="img/gongyi3.png">
+							</a>
+						</li>
+						<li>
+							<a href="#chaifen">
+								<p class="case_more">查看案例</p>
+								<img src="img/gongyi6.png">
+							</a>
+						</li>
+						<li>
+							<a href="#youhua">
+								<p class="case_more">查看案例</p>
+								<img src="img/gongyi4.png">
+							</a>
+						</li>
+					</ul>
+					<!--浮动列表结束-->
+				</div>
+				<!--右侧图片结束-->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!--开发流程-结束-->		
+		<!--成核与生长-->
+		<div class="jingxingDiv1 gongyiDiv2">
+			<div class="wrap">
+				<p class="title_p">关键工艺参数-成核与生长</p>
+				<p class="text_p">
+					控制结晶过程可以从调节晶体成核或生长的角度入手，通常需要同时控制这两种因素。从总体结果的角度出发，必须对每个单元操作进行评估，以确定最关键的单元操作，进而确定成核或生长哪一个对结
+					晶过程起主导作用。<br><br>
+
+					对于结晶过程的控制，传统观点多关注于成核，因为最初形成的晶核的种类、数量和尺寸至关重要。然而，在生长占主导地位之前有多个因素会影响到晶核产生、成核速率和晶核数量，往往导致成核过程
+					难以控制因此，基于最终原料药物理属性的控制要求，须将结晶工艺的重点从成核控制转向生长控制，其中最关键的控制因素即为过饱和度和晶种。</p>
+				<!--图表-->
+				<div class="tubiao">
+					<div class="tubiao_fl">
+						<p class="title_p"><span>A: </span>亚稳态区间、过饱和度<span></span></p>
+						<img src="img/gongyi8.png">
+					</div>
+					<div class="tubiao_fr">
+						<p class="title_p"><span>B: </span>晶种添加<span></span></p>
+						<img src="img/gongyi9.png" class="hideDiv">
+						<!--手机图片-->
+						<img src="img/gongyi_sj1.png" class="showDiv">
+						<img src="img/gongyi_sj2.png" class="showDiv">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!--图表结束-->
+			</div>
+		</div>
+		<!--成核与生长结束-->
+		<a class="link" name="kongzhi"></a>
+		<!--案例分析1-->
+		<div class="jingxingDiv3 gongyiDiv3">
+			<div class="wrap">
+				<p class="title">案例解析</p>
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">1</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">晶型控制案例<span></span></p>
+							<p class="text_p">
+								通过研究确定晶型转化关系，控制晶种添加
+								量和时机，优化干燥条件等方式，尽可能保
+								证目标晶型在结晶制备的全过程中均处于热
+								力学稳定条件下。对于热力学亚稳晶型，则
+								通过控制动力学参数，最大程度降低转晶的
+								风险。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>国内某Biotech公司选择化合物A的晶型B进行开发，工艺产品为小颗粒不规则样品，样品流动性差，堆密度低。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>晶云通过系统地溶剂筛选和结晶工艺优化，找到适合晶型B生长的溶剂体系和工艺条件，通过对样品颗粒的控制，得到流动性好堆密度高的产品。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>1.经过筛选一系列工艺溶剂，找出适合晶型B生长的数个候选溶剂体系。</li>
+								<li>2.收集晶型B在候选溶剂体系的基础数据，包括溶液稳定性、溶解度和亚稳区间，进一步选出优选体系。</li>
+								<li>3.在成功摸索出晶型B的稳定工艺操作区间后，得到了棒状晶型B样品，堆密度提升3倍。</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--方案图-->
+							<div class="fangan">
+								<div class="fangan_fl">
+									<p class="title_p"><span>A:</span>通过溶解度确定不同晶型在特定溶剂比例下的稳定性关系<span></span></p>
+									<img src="img/fangan1.png" style="width: 456px;">
+								</div>
+								<div class="fangan_fr">
+									<p class="title_p"><span>B:</span>最终产品PLM图<span></span></p>
+									<img src="img/fangan2.png" style="width:329px;">
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<!--方案图结束-->
+
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+
+
+			</div>
+		</div>
+		<!--案例分析1结束-->
+		<a class="link" name="tisheng" style="padding-top: 160px; margin-top: -160px;"></a>
+		<!--案例分析2-->
+		<div class="jingxingDiv3 gongyiDiv3 gongyiDiv4">
+			<div class="wrap">
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">2</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">纯度提升案例<span></span></p>
+							<p class="text_p">
+								利用化合物与杂质的溶解度等差异，通过优
+								化结晶条件，如晶种、温度、溶剂体系等，
+								达到除杂提纯的效果，高效、可控地满足质
+								量要求。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>国内某制药企业在开发某抗生素类化合物的过程中，发现样品在长期稳定性和加速稳定性测试过程中会发生明显的颜色变化不符
+										合药典对该品种溶液颜色的要求。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>晶云通过结晶工艺的系统性研究、开发以及优化，在解决化合物变色问题的基础上进一步提高了化合物的性质（包括结晶度、稳
+										定性等），更好地满足药品质量要求，供后续申报上市的使用。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>1.通过不同结晶度样品的制备和固态稳定性评估等一系列研究发现，该化合物在稳定性测试中的颜色变化程度与其结晶度的高低成负
+									相关。起始样品的结晶度越低，其稳定性样品的颜色变化越明显，推测是其含有的微量有色杂质所导致。</li>
+								<li>2.经过系统性的结晶工艺开发和优化（包括但不限于溶剂筛选、晶种优化、过饱和度控制等），晶云为客户提供了一套可以稳定得到
+									结晶度优于市售和客户自制产品的工艺。由该工艺所生产的产品，其长期和加速稳定性得到极大的改善，溶液颜色符合药典的要求，
+									满足了质量控制和后续申报要求。</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--方案图-->
+							<div class="fangan">
+								<div class="fangan_fl">
+									<p class="title_p"><span>A:</span>不同来源样品的XRPD叠图<span></span></p>
+									<img src="img/yangpin1.png" style="width: 495px;">
+								</div>
+								<div class="fangan_fr">
+									<p class="title_p"><span>B:</span>稳定性颜色样品的对比<span></span></p>
+									<img src="img/yangpin2.png">
+									<p class="gongyi_wenzi"><span>晶云产品</span><span>客户产品</span></p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<!--方案图结束-->
+
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+
+
+			</div>
+		</div>
+		<!--案例分析2结束-->
+		<a class="link" name="chaifen"></a>
+		<!--案例分析3-->
+		<div class="jingxingDiv3 gongyiDiv3 gongyiDiv5">
+			<div class="wrap">
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">3</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">三元相图指导手性拆分案例<span></span></p>
+							<p class="text_p">
+								通过与手性试剂的结合，将对应异构体转变
+								为非对映异构体，进一步探索非对映异构体
+								在不同溶剂或溶剂体系中的溶解度 / 析晶速
+								率差异，从而优化得到高效的拆分方案。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>国外某综合型公司，在开发目标化合物的过程中需要拆分一对非对映异构体D/U（D为目标产物）。前期已尝试过化学拆分等手
+										段，但结果并不理想。希望晶云能为该化合物开发出一套拆分体系和相应的拆分方法，保障最终产品的ee值在98%以上。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>晶云通过测定三元相图，准确选择了合适的溶剂体系和温度，并在工艺验证实验中成功得到ee值符合客户要求的非对映异构体D，
+										理论推算与实际结果相互映证。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>1.研究的重点在于寻找合适的拆分体系。根据化合物的性质，发现将D和U在特定的拆分体系中可以得到其消旋体（命名为X）。</li>
+								<li>2.在开发出拆分体系后，进一步收集非对映异构体D和消旋体X不同比例混合物在特定温度下的溶解度数据，绘制出三元相图。最终
+									根据相图，框定了稳定的拆分区间，确定了在该条件下的eutectic ee为98.2%，符合客户的期待。</li>
+								<li>
+									3.根据三元相图的数据以及初步摸索出的条件进行拆分工艺的验证。在百克规模下，得到ee值为98.1%的非对映异构体D样品，为客
+									户的后续生产提供了技术支持。
+								</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--方案图-->
+							<div class="fangan">
+								<p class="gognyi_img"><img src="img/sanyuan1.png" class="fangan_img" style="width: 688px; margin: 20px auto;"></p>
+							</div>
+							<!--方案图结束-->
+
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+
+
+			</div>
+		</div>
+		<!--案例分析3结束-->
+		<a class="link" name="youhua"></a>
+		<!--案例分析4-->
+		<div class="jingxingDiv3 gongyiDiv3 gongyiDiv6 gongyiDiv7">
+			<div class="wrap">
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">4</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">粒径控制案例<span></span></p>
+							<p class="text_p">
+								样品的粒径与比表面积、流动性等直接相关，
+								进一步影响了化合物的溶出速率、过滤难度
+								和制剂可开发性等。通过对结晶条件的控制
+								和优化，得到粒径均一可控的晶体样品，为
+								化合物生产、制剂开发等提供有力保障。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>国外某综合型公司，在开发目标化合物的过程中需要拆分一对非对映异构体D/U（D为目标产物）。前期已尝试过化学拆分等手
+										段，但结果并不理想。希望晶云能为该化合物开发出一套拆分体系和相应的拆分方法，保障最终产品的ee值在98%以上。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>晶云通过测定三元相图，准确选择了合适的溶剂体系和温度，并在工艺验证实验中成功得到ee值符合客户要求的非对映异构体D，
+										理论推算与实际结果相互映证。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>1.研究的重点在于寻找合适的拆分体系。根据化合物的性质，发现将D和U在特定的拆分体系中可以得到其消旋体（命名为X）。</li>
+								<li>2.在开发出拆分体系后，进一步收集非对映异构体D和消旋体X不同比例混合物在特定温度下的溶解度数据，绘制出三元相图。最终
+									根据相图，框定了稳定的拆分区间，确定了在该条件下的eutectic ee为98.2%，符合客户的期待。</li>
+								<li>
+									3.根据三元相图的数据以及初步摸索出的条件进行拆分工艺的验证。在百克规模下，得到ee值为98.1%的非对映异构体D样品，为客
+									户的后续生产提供了技术支持。
+								</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--粒径图-->
+							<div class="lijing  textDiv3">
+								<ul>
+									<li>
+										<p class="lijing_p">Initial</p>
+										<img src="img/lijing1.png" class="hideDiv">
+										<img src="img/gongyi_sj3.jpg" class="showDiv">
+									</li>
+									<li>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent A/H2O(1:1,v/v)</p>
+											<img src="img/lijing2.png">
+										</div>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent E/H2O(1:1,v/v)</p>
+											<img src="img/lijing3.png">
+										</div>
+									</li>
+									<li>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent B/H2O(1:1,v/v)</p>
+											<img src="img/lijing4.png">
+										</div>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent F/H2O(1:1,v/v)</p>
+											<img src="img/lijing5.png">
+										</div>
+									</li>
+									<li>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent C/H2O(1:1,v/v)</p>
+											<img src="img/lijing6.png">
+										</div>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent G/H2O(1:1,v/v)</p>
+											<img src="img/lijing7.png">
+										</div>
+									</li>
+									<li>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent D/H2O(1:2,v/v)</p>
+											<img src="img/lijing8.png">
+										</div>
+										<div class="imgDiv">
+											<p class="lijing_p">Solvent H/H2O(1:2,v/v)</p>
+											<img src="img/lijing9.png">
+										</div>
+									</li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+							<!--粒径图图结束-->
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+
+
+			</div>
+		</div>
+		<!--案例分析4结束-->
+		<!--联系我们-->
+		<div class="contactDiv contactDiv2">
+			<!-- <div class="title">
+				联系我们
+			</div> -->
+			<div class="wrap">
+				<div class="content">
+					<!--左侧联系方式-->
+					<div class="contact_fl">
+						<p class="title_p">联系晶云</p>
+						<ul>
+							<li>
+								<img src="img/tel_w.png">
+								<p>
+									<span>周经理：189-3459-7531/ 0512-69561921 转 807</span>
+									<span>高经理：189-3459-7529/ 0512-69561921 转 812</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<img src="img/email.png">
+								<p>
+									<span>collaboration@crystalpharmatech.com</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<!--业务咨询/求职招聘-->
+						<!-- <div class="foot_center_fr showDiv">
+							<div class="textDiv">
+								<p class="title_p">业务咨询</p>
+								<ul>
+									<li>
+										<span class="name">周女士：</span>
+										<p>
+											<span>手机 189-3459-7531 </span>
+											<span>座机 0512-69561921-807</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">高先生：</span>
+										<p>
+											<span>手机 189-3459-7529 </span>
+											<span>座机 0512-69561921-812</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>collaboration@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="textDiv">
+								<p class="title_p">求职招聘</p>
+								<ul>
+									<li>
+										<span class="name">程女士：</span>
+										<p>
+											<span>座机 0512-69561921-830</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>learner@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div> -->
+						<!--业务咨询/求职招聘结束-->
+					</div>
+					<!--左侧联系方式结束-->
+					<!--右侧留言列表-->
+					<div class="liuyan">
+						<form action="" method="">
+							<!--左侧留言框-->
+							<div class="form_fl">
+								<ul>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="姓名：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="电话：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="邮箱：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="公司：" name="" id="" value="" />
+									</li>
+									<li>
+										<label></label>
+										<input type="" placeholder="职位：" name="" id="" value="" />
+									</li>
+								</ul>
+							</div>
+							<!--左侧留言框结束-->
+							<!--右侧留言框-->
+							<div class="form_fr">
+								<ul>
+									<li>
+										<label>*</label>
+										<textarea type="" placeholder="留言：您要咨询的内容(具体服务项目、合作方式、价格等)" name="" id=""
+											value=""></textarea>
+									</li>
+									<li style="margin-top: -3px;">
+										<label>*</label>
+										<input type="" placeholder="请输入验证码：" name="" id="" value=""
+											style="width: 56%; float: left;" />
+										<p class="yzm"><img src="img/yzm.jpg"></p>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<input type="submit" id="" value="提交" />
+									</li>
+
+								</ul>
+							</div>
+							<!--右侧留言框结束-->
+						</form>
+					</div>
+					<!--右侧留言列表结束-->
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>
+<script type="text/javascript">
+	$(".zhankai_btn").click(function() {
+		$(this).parent().next().fadeIn(800)
+		$(this).hide()
+		$(".shouqi_btn").show()
+	})
+	$(".shouqi_btn").click(function() {
+		$(this).parent().slideToggle(200)
+		$(this).hide()
+		$(".zhankai_btn").show()
+	})
+</script>

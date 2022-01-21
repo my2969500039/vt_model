@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>关于我们</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body>
+		<!--header-->
+		<header>			
+			<div class="wrap">
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<a href="index.html" class="logo2"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>							
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+								
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp">Open Menu</button>
+		
+				<div id="dl-menu" class="dl-menuwrapper">
+		
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+		
+					<ul class="dl-menu">
+		
+						<li><a href="index.html">首页</a></li>
+		
+						<li><a href="about.html">关于我们</a></li>
+		
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+									
+								</div>
+							</ul>
+						</li>
+		
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<ul class="dl-submenu">
+		
+								<!-- <li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li> -->
+		
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+		
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+						
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+						
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--banner内页-->
+		<div class="banner_nei">
+			<p class="banner_p">关于我们</p>
+			<img src="img/about1.png" class="hideDiv">
+			<img src="img/about_sj.png" class="showDiv" >
+		</div>
+		<!--banner结束-->
+		<!--二级导航-->
+		<p class="nav_btn showDiv">关于我们<span class="arrow-bottom"></span></p>
+		<div class="nav_nei">
+
+			<ul>
+				<li><a href="#jianjie" class="now">公司简介<span></span></a></li>
+				<li><a href="#team">核心团队<span></span></a></li>
+				<li><a href="#guwen">科学顾问团队<span></span></a></li>
+				<li><a href="#rongyu">荣誉资质<span></span></a></li>
+				<li><a href="#hezuo">战略合作伙伴<span></span></a></li>
+				<li><a href="#contact">联系我们<span></span></a></li>
+			</ul>
+		</div>
+		<!--二级导航结束-->
+		<a class="link" name="jianjie"></a>
+		<!--公司简介-->
+		<div class="aboutDiv1">
+			<div class="content">
+				<p class="title showDiv" style="margin-bottom: 20px; font-size: 27px; margin-top: 40px;">公司简介</p>
+				<!--左侧图片-->
+				<div class="imgDiv">
+					<img src="img/about.JPG">
+				</div>
+				<!--左侧图片结束-->
+				<!--右侧简介内容-->
+				<div class="textDiv">
+					<div class="textDiv2">
+						<p class="title hideDiv">公司简介</p>
+						<div class="text_p">
+							晶云成立于2010年，总部设立在苏州工业园区生物纳米园，分部设立在美国新泽西州，
+							是中国首家专注于药物晶型研发和产业化的公司。晶云通过建立的国内首个药物晶型研
+							发平台，致力于提高中国创新药物研发的整体实力及药品质量，并在此基础上通过资源
+							整合、完善配套，以晶型研究为起点深入纵向发展，推出新药CMC服务，帮助全球各制
+							药公司加速新药研发进程及提高药物的临床表现，提早在中美等地区提交新药申请并上
+							市。<br><br>
+							晶云领导团队成员过去在美国知名药企，直接负责和从事药物晶型研究，结晶工艺开发
+							以及CMC研发，共积累了在该领域100多年的研发和管理经验。<br><br>
+
+							晶云团队成员凭借专业的服务和快速的反应，高质高效的专业服务，已与全球超过500
+							家制药企业建立合作，为1000多个新药候选化合物提供了药物晶型研发的专业技术方案。
+							作为全球制药企业国际化及高端药物研发合作伙伴，晶云将会不断一如既往秉持客户至
+							上的服务理念，力求为越来越多的客户提供优质的药物固态研发方案及药学CMC服务，
+							帮助其降低临床开发风险，缩短研发周期，提高药物申报通过率以及建立全面的专利保
+							护壁垒。<br><br>
+
+						</div>
+					</div>
+				</div>
+				<!--右侧简介内容结束-->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!--公司简介结束-->
+		<!--数字-->
+		<div class="aboutDiv2">
+			<div class="wrap">
+				<ul>
+					<li>
+						<img src="img/about_num1.png">
+						<p>研发历史</p>
+					</li>
+					<li>
+						<img src="img/about_num2.png">
+						<p>合作药企</p>
+					</li>
+					<li style="margin-bottom: 0;">
+						<img src="img/about_num3.png">
+						<p>专业技术方案</p>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<!--数字结束-->
+		<a class="link" name="team"></a>
+		<!--核心团队-->
+		<div class="aboutDiv3 marDiv">
+			<div class="wrap">
+				<!--标题-->
+				<div class="title">
+					核心团队
+				</div>
+				<!--标题结束-->
+				<!--内容-->
+				<div class="content">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="teamDiv">
+									<a href="javascript:;">
+										<figure>
+											<mark class="hideDiv"><img src="img/jia.png"></mark>
+											<img class="person" alt="张炎锋" src="img/team1.png" width="100%">
+										</figure>
+										<figcaption>
+											<span>张炎锋</span>
+											<span></span>
+											<span>晶云创始人/CSO</span>
+										</figcaption>
+									</a>
+								</div>
+								
+							</div>
+							<div class="swiper-slide">
+								<div class="teamDiv">
+									<a href="javascript:;">
+										<figure>
+											<mark class="hideDiv"><img src="img/jia.png"></mark>
+											<img class="person" alt="陈敏华" src="img/team2.png" width="100%">
+										</figure>
+										<figcaption>
+											<span>陈敏华</span>
+											<span></span>
+											<span>晶云创始人/CEO</span>
+										</figcaption>
+									</a>
+								</div>
+								
+							</div>
+							<div class="swiper-slide">
+								<div class="teamDiv">
+									<a href="javascript:;">
+										<figure>
+											<mark class="hideDiv"><img src="img/jia.png"></mark>
+											<img class="person" alt="Robert Wenslow" src="img/team3.png" width="100%">
+										</figure>
+										<figcaption>
+											<span>Robert Wenslow</span>
+											<span></span>
+											<span>VP B.D.–US & EU</span>
+										</figcaption>
+									</a>
+								</div>
+								
+							</div>
+						</div>
+						<!-- Add Pagination -->
+						
+					</div>
+					<div class="swiper-pagination showDiv"></div>
+					<!--内容结束-->
+					<div class="tanchuang">
+						<!--介绍弹窗-->
+						<div class="openDiv">
+							<div class="textDiv">
+								<!--标题-->
+								<div class="hx_title hideDiv">
+									核心团队介绍
+								</div>
+								<!--标题-->
+								<div class="hx_title showDiv">
+									<p class="title_p">张炎锋<span>(晶云创始人/CSO)</span></p>
+								</div>
+								<!--标题结束-->
+								<!--标题结束-->
+								<div class="wenzi">
+									<button type="button" class="about_close"><img
+											src="img/menu-button-bg2.png"></button>
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team1.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="text_p">
+										<p class="title_p hideDiv">张炎锋<span>(晶云创始人/CSO)</span></p>
+										<p class="jieshao">
+											北京大学化学本科，美国罗格斯大学攻读物理分析化学博士，国家特聘专家；
+											15年制药领域生产研发及管理经验；曾在美国默克从事药物研发和生产，经
+											历并熟悉新药从临床前期研发到上市所有阶段；专长固相表征、多晶型和共
+											晶型筛选、手性分子结晶拆分和药物传输中纳米工程的应用。
+										</p>
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<!--介绍弹窗结束-->
+						<!--介绍弹窗-->
+						<div class="openDiv">
+							<div class="textDiv">
+								<!--标题-->
+								<div class="hx_title hideDiv">
+									核心团队介绍
+								</div>
+								<div class="hx_title showDiv">
+									<p class="title_p">陈敏华<span>(晶云创始人/CEO)</span></p>
+								</div>
+								<!--标题结束-->
+								<div class="wenzi">
+									<button type="button" class="about_close"><img
+											src="img/menu-button-bg2.png"></button>
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team2.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="text_p">
+										<p class="title_p hideDiv">陈敏华<span>(晶云创始人/CEO)</span></p>
+										<p class="jieshao">
+											北京大学化学本科，美国罗格斯大学攻读物理分析化学博士，国家特聘专家；
+											15年制药领域生产研发及管理经验；曾在美国默克从事药物研发和生产，经
+											历并熟悉新药从临床前期研发到上市所有阶段；专长固相表征、多晶型和共
+											晶型筛选、手性分子结晶拆分和药物传输中纳米工程的应用。
+										</p>
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<!--介绍弹窗结束-->
+						<!--介绍弹窗-->
+						<div class="openDiv">
+							<div class="textDiv">
+								<!--标题-->
+								<div class="hx_title hideDiv">
+									核心团队介绍
+								</div>
+								<div class="hx_title showDiv">
+									<p class="title_p">Robert Wenslow<span>(VP B.D.–US & EU)</span></p>
+								</div>
+								<!--标题结束-->
+								<div class="wenzi">
+									<button type="button" class="about_close"><img
+											src="img/menu-button-bg2.png"></button>
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team3.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="text_p">
+										<p class="title_p hideDiv">Robert Wenslow<span>(VP B.D.–US & EU)</span></p>
+										<p class="jieshao">
+											北京大学化学本科，美国罗格斯大学攻读物理分析化学博士，国家特聘专家；
+											15年制药领域生产研发及管理经验；曾在美国默克从事药物研发和生产，经
+											历并熟悉新药从临床前期研发到上市所有阶段；专长固相表征、多晶型和共
+											晶型筛选、手性分子结晶拆分和药物传输中纳米工程的应用。
+										</p>
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<!--介绍弹窗结束-->
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--核心团队结束-->
+		<a class="link" name="guwen"></a>
+		<!--科学顾问-->
+		<div class="aboutDiv4 marDiv">
+			<div class="wrap">
+				<div class="title">
+					科学顾问团队
+				</div>
+				<div class="content">
+					<!--缩略图-->
+					<div class="swiper-container" id="thumbs">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<span class="xian"></span>
+									<p class="p1">Dr. Elizabeth Vadas</p>
+									<p class="p2"></p>
+									<p class="p3">InSciTech Inc</p>
+									<p class="p4">制剂与处方前专家</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<span class="xian"></span>
+									<p class="p1">Dr. Elizabeth Vadas</p>
+									<p class="p2"></p>
+									<p class="p3">InSciTech Inc</p>
+									<p class="p4">制剂与处方前专家</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<span class="xian"></span>
+									<p class="p1">Dr. Elizabeth Vadas</p>
+									<p class="p2"></p>
+									<p class="p3">InSciTech Inc</p>
+									<p class="p4">制剂与处方前专家</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<span class="xian"></span>
+									<p class="p1">Dr. Elizabeth Vadas</p>
+									<p class="p2"></p>
+									<p class="p3">InSciTech Inc</p>
+									<p class="p4">制剂与处方前专家</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--缩略图结束-->
+					<div class="swiper-container" id="gallery">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"
+								style="background: url(./img/index1.png) no-repeat center center; background-size: cover;">
+								<div class="textDiv">
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/guwen1.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="jieshao">
+										以超分子化学与晶体工程概念为前提，制定了以分子机理方法为基础的研究计划；服务于FDA药品科学咨询委员会 ；
+										《Crystal Growth and Design 》《 Molecular Pharmaceutics 》《 Journal of
+										Pharmaceutical Sciences 》杂志
+										编辑委员会成员；2005年，因在the Journal of Pharmaceutical Sciences发表了有重大价值的文章而获得艾伯特奖。
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="swiper-slide"
+								style="background: url(./img/index1.png) no-repeat center center; background-size: cover;">
+								<div class="textDiv">
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team1.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="jieshao">
+										以超分子化学与晶体工程概念为前提，制定了以分子机理方法为基础的研究计划；服务于FDA药品科学咨询委员会 ；
+										《Crystal Growth and Design 》《 Molecular Pharmaceutics 》《 Journal of
+										Pharmaceutical Sciences 》杂志
+										编辑委员会成员；2005年，因在the Journal of Pharmaceutical Sciences发表了有重大价值的文章而获得艾伯特奖。
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="swiper-slide"
+								style="background: url(./img/index1.png) no-repeat center center; background-size: cover;">
+								<div class="textDiv">
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team2.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="jieshao">
+										以超分子化学与晶体工程概念为前提，制定了以分子机理方法为基础的研究计划；服务于FDA药品科学咨询委员会 ；
+										《Crystal Growth and Design 》《 Molecular Pharmaceutics 》《 Journal of
+										Pharmaceutical Sciences 》杂志
+										编辑委员会成员；2005年，因在the Journal of Pharmaceutical Sciences发表了有重大价值的文章而获得艾伯特奖。
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+
+							<div class="swiper-slide"
+								style="background: url(./img/index1.png) no-repeat center center; background-size: cover;">
+								<div class="textDiv">
+									<!--左侧图片-->
+									<div class="imgDiv_fl">
+										<img src="img/team3.png">
+									</div>
+									<!--左侧图片结束-->
+									<!--右侧介绍-->
+									<div class="jieshao">
+										以超分子化学与晶体工程概念为前提，制定了以分子机理方法为基础的研究计划；服务于FDA药品科学咨询委员会 ；
+										《Crystal Growth and Design 》《 Molecular Pharmaceutics 》《 Journal of
+										Pharmaceutical Sciences 》杂志
+										编辑委员会成员；2005年，因在the Journal of Pharmaceutical Sciences发表了有重大价值的文章而获得艾伯特奖。
+									</div>
+									<!--右侧介绍结束-->
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-button-next swiper-button-white hideDiv"></div>
+					<div class="swiper-button-prev swiper-button-white hideDiv"></div>
+					<div class="swiper-button-next swiper-button-black showDiv"></div>
+					<div class="swiper-button-prev swiper-button-black showDiv"></div>
+				</div>
+
+			</div>
+		</div>
+		<!--科学顾问结束-->
+		<a class="link" name="rongyu"></a>
+		<!--荣誉资质-->
+		<div class="aboutDiv5 ">
+			<div class="title">
+				荣誉资质
+			</div>
+			<div class="wrap">
+				<div class="textDiv">
+					基于优秀的研发实力和丰富的技术成果，公司被评为国家“高新技术企业”、“技术先进型服务企业”、“现代服务业综合试点项目”，并于
+					2017年参与了国家药典委员会《药品晶型研究及晶型质量控制指导原则》的修订工作。同时公司还被评为江苏省“民营科技企业”、“科技创新企业”、
+					苏州市“药物结晶工程技术中心”、“服务外包示范工程企业”等。
+				</div>
+				<!--证书轮播-->
+				<div class="content">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="textDiv2">
+									<img src="img/zhengshu1.png">
+									<p>高新技术企业</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv2">
+									<img src="img/zhengshu2.png">
+									<p>2017年度专利授权十佳企业</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv2">
+									<img src="img/zhengshu3.png">
+									<p>技术先进型服务企业</p>
+								</div>
+							</div>
+						</div>
+						<!-- Add Pagination -->
+
+					</div>
+					<div class="swiper-button-next swiper-button-white"></div>
+					<div class="swiper-button-prev swiper-button-white"></div>
+				</div>
+				<!--证书轮播结束-->
+			</div>
+		</div>
+		<!--荣誉资质结束-->
+		<a class="link" name="hezuo"></a>
+		<!--合作伙伴-->
+		<div class="aboutDiv6">
+			<div class="title">
+				战略合作伙伴
+			</div>
+			<div class="wrap">
+				<ul>
+					<li><a href=""><img src="img/hezuo6.png"></a></li>
+					<li><a href=""><img src="img/hezuo1.png"></a></li>
+					<li><a href=""><img src="img/hezuo2.png"></a></li>
+					<li><a href=""><img src="img/hezuo3.png"></a></li>
+					<li><a href=""><img src="img/hezuo4.png"></a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!--合作伙伴结束-->
+		<a class="link" name="contact"></a>
+		<!--联系我们-->
+		<div class="contactDiv">
+			<div class="title">
+				联系我们
+			</div>
+			<div class="wrap">
+				<div class="content">
+					<!--左侧联系方式-->
+					<div class="contact_fl">
+						<ul>
+							<li>
+								<img src="img/weizhi_w.png">
+								<p>
+									<span>中国总部：苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+									<span>美国分部：Suite 500-B, 3000 Eastpark Blvd, Cranbury, New Jersey 08512,
+										USA</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<img src="img/tel_w.png">
+								<p>
+									<span>0512-69561921 / 69561923</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<img src="img/tel_w2.png">
+								<p>
+									<span>189-3459-7531</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<img src="img/email.png">
+								<p>
+									<span>collaboration@crystalpharmatech.com</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<!--业务咨询/求职招聘-->
+						<div class="foot_center_fr showDiv">
+							<div class="textDiv">
+								<p class="title_p">业务咨询</p>
+								<ul>
+									<li>
+										<span class="name">周女士：</span>
+										<p>
+											<span>手机 189-3459-7531 </span>
+											<span>座机 0512-69561921-807</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">高先生：</span>
+										<p>
+											<span>手机 189-3459-7529 </span>
+											<span>座机 0512-69561921-812</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>collaboration@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="textDiv">
+								<p class="title_p">求职招聘</p>
+								<ul>
+									<li>
+										<span class="name">程女士：</span>
+										<p>
+											<span>座机 0512-69561921-830</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>learner@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--业务咨询/求职招聘结束-->
+					</div>
+					<!--左侧联系方式结束-->
+					<!--右侧留言列表-->
+					<div class="liuyan">
+						<form action="" method="">
+							<!--左侧留言框-->
+							<div class="form_fl">
+								<ul>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="姓名：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="电话：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="邮箱：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="公司：" name="" id="" value="" />
+									</li>
+									<li>
+										<label></label>
+										<input type="" placeholder="职位：" name="" id="" value="" />
+									</li>
+								</ul>
+							</div>
+							<!--左侧留言框结束-->
+							<!--右侧留言框-->
+							<div class="form_fr">
+								<ul>
+									<li>
+										<label>*</label>
+										<textarea type="" placeholder="留言：您要咨询的内容(具体服务项目、合作方式、价格等)" name="" id=""
+											value=""></textarea>
+									</li>
+									<li style="margin-top: -3px;">
+										<label>*</label>
+										<input type="" placeholder="请输入验证码：" name="" id="" value=""
+											style="width: 47%; float: left;" />
+										<p class="yzm"><img src="img/yzm.jpg"></p>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<input type="submit" id="" value="提交" />
+									</li>
+
+								</ul>
+							</div>
+							<!--右侧留言框结束-->
+						</form>
+					</div>
+					<!--右侧留言列表结束-->
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>

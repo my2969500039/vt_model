@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>晶型研究</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body>
+		<!--header-->
+		<header>
+			
+			<div class="wrap">
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<a href="index.html" class="logo2"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>							
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+								
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp">Open Menu</button>
+		
+				<div id="dl-menu" class="dl-menuwrapper">
+		
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+		
+					<ul class="dl-menu">
+		
+						<li><a href="index.html">首页</a></li>
+		
+						<li><a href="about.html">关于我们</a></li>
+		
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+									
+								</div>
+							</ul>
+						</li>
+		
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<!-- <ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li>
+		
+							</ul> -->
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+		
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+						
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+						
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--banner内页-->
+		<div class="banner_nei">
+			<p class="banner_p2">
+
+				晶型研究
+				<span>晶型研究贯穿于药物发现和开发的整个过程。晶云药物是晶型研究领域
+					的领导者，为全球制药企业提供定制化的晶型研究方案，推动药物早日
+					开发上市。</span>
+
+
+			</p>
+			<img src="img/jingxing1.png" class="hideDiv">
+			<img src="img/jingxing_sj.jpg" class="showDiv" >
+		</div>
+		<!--banner结束-->
+		<!--二级导航-->
+		<p class="nav_btn showDiv">晶型研究<span class="arrow-bottom"></span></p>
+		<div class="nav_nei">
+
+			<ul>
+				<li><a href="jingxing.html" class="now">晶型研究<span></span></a></li>
+				<li><a href="jingxing_gy.html">结晶工艺开发<span></span></a></li>
+				<li><a href="jingxing_cf.html">处方前研究<span></span></a></li>
+				<li><a href="jingxing_jg.html">结构确证<span></span></a></li>
+				<li><a href="jingxing_lh.html">理化分析<span></span></a></li>
+			</ul>
+		</div>
+		<!--二级导航结束-->
+		<!--研究流程-->
+		<div class="jingxingDiv1">
+			<div class="wrap">
+				<p class="title_p">晶型研究贯穿药物研发全流程</p>
+				<p class="text_p">从药物发现阶段的先导化合物筛选及优化，临床前研究，临床试验，直至最终药物上市，都离不开晶型研究的支持。
+					药物晶型是连接药物分子与最终药物产品的一座重要桥梁。同一药物的不同晶型具有不同的理化性质，如溶解度、稳定性、引
+					湿性、流动性等，进而会影响到药品的质量、生产、药效以及安全性。</p>
+				<img src="img/jingxing2.png" class="hideDiv">
+				<img src="img/jingxing_sj1.png" class="showDiv">
+			</div>
+		</div>
+		<!--研究流程结束-->
+		<!--研究方案-->
+		<div class="jingxingDiv2 marDiv">
+			<div class="wrap">
+				<!--左侧介绍-->
+				<div class="textDiv">
+					<p class="title_p">结合实际需求提供定制研究方案</p>
+					<p class="text_p">
+						晶云药物根据化合物进展的阶段和实际研究过程中遇到
+						的挑战定制合理的技术方案，迄今为止已为超过500家
+						客户和超过1000个新药化合物提供了药物晶型研发的
+						专业技术解决方案。<br><br>
+
+						如果化合物理化性质(如溶解度、稳定性等)能够满足开
+						发需求，优先考虑采用游离态进行多晶型筛选，并选出
+						理化性质优良、工艺可放大的优势晶型。<br><br>
+
+						如果化合物性质理化需要改善，盐型和共晶的筛选被纳
+						入考虑，选择能够提升溶解度、稳定性等性质的盐或共
+						晶再进行多晶型筛选和评估，最终选出优势晶型供客户
+						进一步开发。<br><br>
+					</p>
+				</div>
+				<!--左侧介绍结束-->
+				<!--右侧图片-->
+				<div class="imgDiv_fr">
+					<a href="#case1" class="more3 hideDiv">查看案例</a>
+					<a href="#case2" class="more4 hideDiv">查看案例</a>
+					<img src="img/jingxing3.png">
+				</div>
+				<!--右侧图片结束-->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!--研究方案-结束-->
+		
+		<!--案例分析1-->
+		<div class="jingxingDiv3 marDiv">
+			<div class="wrap">
+				<p class="title">案例分析</p>
+				<!--内容-->
+				<a name="case1" class="link"></a>
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">1</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">多晶型筛选案例<span></span></p>
+							<p class="text_p">
+								<span>筛选潜在晶型</span>
+								晶云药物依托晶型筛选领域的经验积累，根
+								据化合物特性和客户需求优化筛选方案，将
+								每一个筛选试验的价值最大化，发现尽可能
+								多的化合物晶型。
+							</p>
+							<p class="text_p">
+								<span>确定“优势晶型”</span>
+								在药物开发过程中，为了寻找到适于开发的
+								“优势晶型”，通常会选择热力学上稳定的
+								晶型用于开发，以尽可能降低开发过程中的
+								晶型转变风险。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png" ></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>某国内新药开发公司希望为处于临床前阶段的化合物，
+										开展全面的多晶型筛选工作，以期望选择理化性质较优的晶型用于后续开发。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>前期客户开展了在少数溶剂体系中的初步筛选，发现了化合物
+										有可能存在水合物以及溶剂合物。</p>
+									<div class="clearfix"></div>
+
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案图-->
+							<img src="img/jingxing4.png">
+							<!--方案文字-->
+							<div class="wenzi">
+								<ul>
+									<li>
+										<img src="img/top1.png">
+										<p>
+											<span class="showDiv">初始样品表征：</span>对化合物进行基础表
+											征，包括固态表征、
+											粗略溶解度等，用于
+											指导试验设计。 </p>
+									</li>
+									<li>
+										<img src="img/top1.png">
+										<p>
+											<span class="showDiv">多晶型筛选实验：</span>
+											采用多种固相转变和
+											溶液结晶方法设置多
+											晶型筛选试验，以得
+											到尽可能多的晶型。 </p>
+									</li>
+									<li>
+										<img src="img/top1.png">
+										<p>
+											<span class="showDiv">多晶型固态表征和鉴定：</span>
+											综合各种固相研究方
+											法，对筛选试验得到
+											晶型进行鉴定，明确
+											可开发的潜在晶型。 </p>
+									</li>
+									<li>
+										<img src="img/top2.png">
+										<p>
+											<span class="showDiv">晶型间相互转化关系研究：</span>
+											晶型间相互转化关系
+											研究，确定各晶型间
+											的热力学稳定性关系
+											（含关键水活度）。 </p>
+									</li>
+									<li>
+										<img src="img/top2.png">
+										<p>
+											<span class="showDiv">综合评估稳定性、溶解度、引湿性等：</span>
+											综合考察优势晶型的
+											物理化学性质，进而
+											评估该优势晶型在后
+											续开发中的风险。 </p>
+									</li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+							<!--方案文字结束-->
+							<!--实验设计-->
+							<div class="shiyan">
+								<div class="shiyan_fl">
+									<p class="title_p"><span>A:</span>筛选试验设计（不同颜色代表不同溶剂）<span></span></p>
+									<img src="img/jingxing5.png" style="width: 346px;">
+								</div>
+								<div class="shiyan_fr">
+									<p class="title_p"><span>B:</span>筛选结果对比<span></span></p>
+									<img src="img/jingxing6.png" style="width: 510px;">
+								</div>
+								<div class="clearfix"></div>
+								<p class="text_p">晶云筛选策略(根据化合物特性设计合适的结晶溶剂和方法)提高找到潜在晶型可能性</p>
+							</div>
+							<!--实验设计结束-->
+						</div>
+						<!--晶云方案结束-->
+						<!--结论-->
+						<div class="textDiv textDiv2" style="border: 0;">
+							<p class="title_p"><img src="img/case_ico3.png">结论</p>
+							<ul>
+								<li>1. 根据化合物特性设计的全面多晶型筛选试验共得到了20个新晶型。</li>
+								<li>2. 通过理化性质表征和晶型鉴定发现的新晶型中包含6个无水晶型、3个水合物11个溶剂合物。</li>
+								<li>3. 晶型转化关系研究结果显示无水晶型Ⅰ室温下特定的水活度条件中稳定，且具有良好物理和化学稳定性、几乎无引湿性、符合
+									开发需求的溶解度，推荐为优势晶型用于后续开发和研究。</li>
+							</ul>
+							<div class="jielun_img">
+								<img src="img/jingxing7.png">
+								<p class="jieguo_p">晶型转化关系图</p>
+							</div>
+						</div>
+						<!--结论结束-->
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png" ></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+					
+				</div>
+				<!--内容结束-->								
+			</div>
+		</div>
+		<!--案例分析1结束-->
+		<a name="case2" class="link" style="padding-top: 160px; margin-top: -160px;"></a>
+		<!--案例分析2-->
+		<div class="jingxingDiv3 jingxingDiv4">
+			<div class="wrap">
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">2</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">盐型 / 共晶筛选案例<span></span></p>
+							<p class="text_p">
+								<span>盐型 / 共晶筛选案例</span>
+								针对越来越频繁出现的难溶性药物，利用盐
+								或共晶的形式来提高其溶解度，从而提高药
+								物的生物利用度及成药性，是当前的一个重
+								要开发策略。
+							</p>
+							<p class="text_p">
+								<span>优选盐型/共晶</span>
+								对候选盐型 / 共晶进行全方位评估，包括物
+								理和化学稳定性、溶解度、引湿性等，推荐
+								综合属性最合适的盐型 / 共晶用于进一步开
+								发。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png" ></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>某国外Biotech公司希望为其在临床前阶段的化合物开展全面的盐型/共晶筛选。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>化合物为弱碱性(pKa ~2.3)，前期曾初步开展了游离碱的多晶型筛选工作，发现了若干晶型(>10)，后选择了游离碱晶型I作为
+										开发晶型。</p>
+									<div class="clearfix"></div>
+
+								</li>
+								<li>
+									<span></span>
+									<p>由于前期开发的游离碱晶型生物利用度相对受限，该客户希望开展完整的盐型/共晶筛选工作，以评估是否有理化性质（尤其是
+										溶解度更优）的晶型，同时也对盐型/共晶进行全面的保护。</p>
+									<div class="clearfix"></div>
+
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv" style="border: 0;">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案图-->
+							<img src="img/jingxing8.png">
+							<!--方案文字-->
+							<div class="wenzi">
+								<ul>
+									<li>
+										<img src="img/top1.png">
+										<p>对化合物进行基础表
+											征，包括固态表征、
+											粗略溶解度、pKa等，
+											用于指导试验设计。 </p>
+									</li>
+									<li>
+										<img src="img/top2.png">
+										<p>采用多种不同方法、
+											配体和溶剂体系实施
+											若干数量的盐型 / 共
+											晶筛选试验。 </p>
+									</li>
+									<li>
+										<img src="img/top1.png">
+										<p>综合评估各个盐型的
+											理化性质和可开发性，
+											对性质较优的盐型或
+											共晶进行放大制备。 </p>
+									</li>
+									<li>
+										<img src="img/top2.png">
+										<p>通过单晶结构解析、
+											XPS (X射线光电子能
+											谱）等分析测试手段
+											鉴别盐和共晶。 </p>
+									</li>
+									<li>
+										<img src="img/top1.png">
+										<p>进一步评估候选盐 /
+											共晶的性质和潜在的
+											风险，推荐最适合开
+											发的盐型。 </p>
+									</li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+							<!--方案文字结束-->							
+						</div>
+						<!--晶云方案结束-->
+						<!--结论-->
+						<div class="textDiv textDiv2" style="border: 0;">
+							<p class="title_p"><img src="img/case_ico3.png">结论</p>
+							<ul>
+								<li>1. 综合盐型筛选和表征的结果，酸的安全级别，多晶型现象等因素，选出候选盐型。</li>
+								<li>2. 进一步评估候选盐型的引湿性，固态稳定性和溶解度并与游离碱晶型I进行综合评价，选出各方面性质适合的优势盐型(见下图)。</li>
+								<li>3. 通过单晶培养与解析，确证盐型C为盐而非共晶。</li>
+								<li>4. 为客户申请专利保护提供数据支持，延长化合物生命周期</li>
+							</ul>
+							<div class="jielun_img2">
+								<img src="img/jingxing9.jpg">
+								<p class="jieguo_p">优选盐型评估</p>
+							</div>
+						</div>
+						<!--结论结束-->
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png" ></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+					
+				</div>
+				<!--内容结束-->
+				<!--了解更多-->
+				<a href="" class="more2">了解更多<img src="img/jiantou_index.png" ></a>
+				<!--了解更多结束-->
+			</div>
+		</div>
+		<!--案例分析2结束-->
+		<!--联系我们-->
+		<div class="contactDiv contactDiv2">
+			<!-- <div class="title">
+				联系我们
+			</div> -->
+			<div class="wrap">
+				<div class="content">
+					<!--左侧联系方式-->
+					<div class="contact_fl">
+						<p class="title_p">联系晶云</p>
+						<ul>
+							<li>
+								<img src="img/tel_w.png">
+								<p>
+									<span>周经理：189-3459-7531/ 0512-69561921 转 807</span>
+									<span>高经理：189-3459-7529/ 0512-69561921 转 812</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>							
+							<li>
+								<img src="img/email.png">
+								<p>
+									<span>collaboration@crystalpharmatech.com</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<!--业务咨询/求职招聘-->
+						<!-- <div class="foot_center_fr showDiv">
+							<div class="textDiv">
+								<p class="title_p">业务咨询</p>
+								<ul>
+									<li>
+										<span class="name">周女士：</span>
+										<p>
+											<span>手机 189-3459-7531 </span>
+											<span>座机 0512-69561921-807</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">高先生：</span>
+										<p>
+											<span>手机 189-3459-7529 </span>
+											<span>座机 0512-69561921-812</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>collaboration@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="textDiv">
+								<p class="title_p">求职招聘</p>
+								<ul>
+									<li>
+										<span class="name">程女士：</span>
+										<p>
+											<span>座机 0512-69561921-830</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>learner@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div> -->
+						<!--业务咨询/求职招聘结束-->
+					</div>
+					<!--左侧联系方式结束-->
+					<!--右侧留言列表-->
+					<div class="liuyan">
+						<form action="" method="">
+							<!--左侧留言框-->
+							<div class="form_fl">
+								<ul>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="姓名：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="电话：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="邮箱：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="公司：" name="" id="" value="" />
+									</li>
+									<li>
+										<label></label>
+										<input type="" placeholder="职位：" name="" id="" value="" />
+									</li>
+								</ul>
+							</div>
+							<!--左侧留言框结束-->
+							<!--右侧留言框-->
+							<div class="form_fr">
+								<ul>
+									<li>
+										<label>*</label>
+										<textarea type="" placeholder="留言：您要咨询的内容(具体服务项目、合作方式、价格等)" name="" id=""
+											value=""></textarea>
+									</li>
+									<li style="margin-top: -3px;">
+										<label>*</label>
+										<input type="" placeholder="请输入验证码：" name="" id="" value=""
+											style="width: 56%; float: left;" />
+										<p class="yzm"><img src="img/yzm.jpg"></p>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<input type="submit" id="" value="提交" />
+									</li>
+
+								</ul>
+							</div>
+							<!--右侧留言框结束-->
+						</form>
+					</div>
+					<!--右侧留言列表结束-->
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>
+<script type="text/javascript">
+	$(".zhankai_btn").click(function(){
+		$(this).parent().next().fadeIn(800)
+		$(this).hide()
+		$(".shouqi_btn").show()
+	})
+	$(".shouqi_btn").click(function(){
+		$(this).parent().slideToggle(200)
+		$(this).hide()
+		$(".zhankai_btn").show()
+	})
+</script>

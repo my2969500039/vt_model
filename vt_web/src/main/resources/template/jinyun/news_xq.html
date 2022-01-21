@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>公司新闻</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body>
+		<!--header-->
+		<header class="header_fixed header_fixed2">
+			
+			<div class="wrap">
+				<!-- <a href="index.html" class="logo"><img src="img/logo.png"></a> -->
+				<a href="index.html" class="logo3" style="display: block;"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu menu_2 hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>							
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+								
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp2">Open Menu</button>
+		
+				<div id="dl-menu" class="dl-menuwrapper">
+		
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+		
+					<ul class="dl-menu">
+		
+						<li><a href="index.html">首页</a></li>
+		
+						<li><a href="about.html">关于我们</a></li>
+		
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+									
+								</div>
+							</ul>
+						</li>
+		
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<!-- <ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li>
+		
+							</ul> -->
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+		
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+		
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+		
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+						
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+						
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--当前位置-->
+		<div class="position">
+			<div class="wrap">
+				<a href="index.html"> 首页</a> >
+				<a href="news.html">公司新闻</a> >
+				新闻详情
+			</div>
+
+		</div>
+		<!--当前位置结束-->
+
+		<!--新闻详情-->
+		<div class="news_xqDiv">
+			<div class="wrap">
+				<p class="title_p">晶云药物邀您莅临CPhI China 2017</p>
+				<div class="content">
+					<img src="img/news_xq1.jpg"><br><br>
+					CFDA日前对药品审评审批制度的改革对创新药物的研发起到了积极推动的作用，促进市场加大加快创新药物研发的投入及步伐。中国正处在新药研发腾飞的前夜，中国新药研发前途一片光明！但新药研发
+					仍然是一个“苦活”、“累活”，需要创业的企业家和科学家们一起建立自有核心平台，借助资本的力量及最专业的CRO服务来完成每一个创新小分子药物的开发，推动药物快速进入临床研究。<br><br>
+
+					本次专题研讨会聚集华南地区专注做新药的职业新药掘金者，交流探讨小分子药物开发中的经验教训，项目推进过程中的思考，在突破技术层面障碍的同时关注公司的长期发展与融资渠道。我们期待老朋友
+					的相聚，新朋友的相识，欢迎大家报名参加！<br><br>
+
+					<b>主办单位：</b><br>
+					广州源生医药科技有限公司<br>
+					广州必贝特医药技术有限公司<br>
+					苏州圣苏新药开发有限公司<br>
+					苏州晶云药物科技有限公司<br><br>
+
+					<b>协办单位：</b><br>
+					广州开发区高层次人才协会<br><br>
+
+					<b>媒体支持：</b><br>
+					研发客<br><br>
+				</div>
+				<!--翻页-->
+				<div class="link_page">
+					<a href=""><span class="prev"></span></a>
+					<a href=""><span class="next"></span></a>					
+				</div>
+				<div class="clearfix"></div>
+				<!--翻页结束-->
+			</div>
+		</div>
+		<!--新闻详情结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>

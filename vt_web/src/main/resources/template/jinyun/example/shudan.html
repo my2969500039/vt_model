@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>晶彩生活</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/certify.css"/>
+	</head>
+
+	<body>
+		<!--header-->
+		<header>
+
+			<div class="wrap">
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<a href="index.html" class="logo2"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp">Open Menu</button>
+
+				<div id="dl-menu" class="dl-menuwrapper">
+
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+
+					<ul class="dl-menu">
+
+						<li><a href="index.html">首页</a></li>
+
+						<li><a href="about.html">关于我们</a></li>
+
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+
+								</div>
+							</ul>
+						</li>
+
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<!-- <ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li>
+
+							</ul> -->
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--banner内页-->
+		<div class="banner_nei">
+			<p class="banner_p">
+				中央读书帮
+			</p>
+
+			<img src="img/shudan.png" class="hideDiv">
+			<img src="img/shudan_sj.png" class="showDiv">
+		</div>
+		<!--banner结束-->
+		<!--当前位置-->
+		<div class="position" style="margin-top: 0;">
+			<div class="wrap">
+				<a href="index.html"> 首页</a> >
+				<a href="shenghuo.html">晶彩生活</a> >
+				书单列表
+			</div>
+
+		</div>
+		<!--当前位置结束-->
+		<!--书单1列表-->
+		<div class="marDiv">
+			<p class="title">四十二章经</p>
+			<div class="shudanDiv shudanDiv1">
+				<div class="wrap">
+					<p class="shudan_title">【人生如戏 知行知行】</p>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan1.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《王安石传》 </p>
+										<div class="text_p">
+											<p class="p1">读其诗词，几不复知为曾造作掀天动地大事业开拓千古者也。</p>
+											<p class="p2">
+												<span>晶“云”：</span>作为改革者，王而荆；作为诗人词人，安石。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan2.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《林肯传》 </p>
+										<div class="text_p">
+											<p class="p1">除了忧伤，幽默和讲述故事时的机智，也是林肯人格魅 力中不可分割的显著特征之一。</p>
+											<p class="p2">
+												<span>晶“云”：</span>幽默是一种很重要的能力，讲好故事也是一种很重要的能力。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan3.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《苏东坡传》</p>
+										<div class="text_p">
+											<p class="p1">主张王安石的社会主义观念为是为非，自无不可，但是 他那社会主义的政权必须凭其政绩去判断才是。</p>
+											<p class="p2">
+												<span>晶“云”：</span>社会实践，用结果检验，让时间考验。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+						</div>						
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination showDiv"></div>
+				</div>
+			</div>
+		</div>
+		<!--书单1列表结束-->
+		<!--书单2列表-->
+		<div class="marDiv">
+			<div class="shudanDiv shudanDiv1">
+				<div class="wrap">
+					<p class="shudan_title">【人在江湖 识人为人】</p>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan4.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《人物志》 </p>
+										<div class="text_p">
+											<p class="p1">观其感变以审常度。夫人厚貌深情，将欲求之，必观其 辞旨，察其应赞。</p>
+											<p class="p2">
+												<span>晶“云”：</span>视其所以，观其所由，察其所安。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan5.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《四书章句集注》 </p>
+										<div class="text_p">
+											<p class="p1">有子曰：“礼之用，和为贵。先王之道，斯为美，小大 由之。有所不行，知和而和，不以礼节之，亦不可行也。”</p>
+											<p class="p2">
+												<span>晶“云”：</span>喜怒哀乐之未发，谓之中;发而皆中节，谓之和。表面和但里面不和，则貌合神离。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan6.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《社会心理学》</p>
+										<div class="text_p">
+											<p class="p1">如何减少个人懈怠—个人工作可量化。</p>
+											<p class="p2">
+												<span>晶“云”：</span>用数据说话......
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination showDiv"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--书单2列表结束-->
+		<!--书单3列表-->
+		<div class="marDiv">
+			<div class="shudanDiv shudanDiv1">
+				<div class="wrap">
+					<p class="shudan_title">【人在药湖 学问学习】</p>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan7.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《第五项修炼》 </p>
+										<div class="text_p">
+											<p class="p1">正视我们“声称的理论”（我们所说的）与我们实际“ 实行的理论”（在我们所做的被后所隐含的理论）之 间的区别。</p>
+											<p class="p2">
+												<span>晶“云”：</span>实事求是，实事求是，实事求是。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan8.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《沟通的艺术》 </p>
+										<div class="text_p">
+											<p class="p1">研究表明，忠告无济于事的次数实际上和它给予帮助的 次数至少一样多。当人们要求别人给予忠告时，尤其给 予忠告的是一个可信的、有同理心的人时，他们更愿意 听取忠告。</p>
+											<p class="p2">
+												<span>晶“云”：</span>可信则可行，不信则不行。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="textDiv">
+									<div class="imgDiv">
+										<!--图片-->
+										<img src="img/shudan9.png">
+										<!--图片结束-->
+									</div>
+									<!--文字-->
+									<div class="wenzi">
+										<p class="title_p">《Mindset》</p>
+										<div class="text_p">
+											<p class="p1">If you want to go fast, walk alone. If you want to go far, walk together.</p>
+											<p class="p2">
+												<span>晶“云”：</span>欲速，独自一人行;欲远，团队协力行。
+											</p>											
+										</div>
+									</div>
+									<!--文字结束-->
+								</div>
+							</div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination showDiv"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--书单4列表结束-->
+		<!--书单滚动-->
+		<div class="shudanDiv2">
+			<div class="wrap">
+				<div id="certify">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">																					
+							<div class="swiper-slide">
+								<img src="img/shudan13.png" />
+								<p>《成功的项目管理》 </p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan14.png" />
+								<p>《高效演讲》 </p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan15.png" />
+								<p>《CREATIVITY,INC.》 </p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan16.png" />
+								<p>《创业维艰》 </p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan10.png" />
+								<p>《从0到1》</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan11.png" />
+								<p>《王安石传》</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/shudan12.png" />
+								<p>《周一倾城的领导课》</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+		<!--书单滚动结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>

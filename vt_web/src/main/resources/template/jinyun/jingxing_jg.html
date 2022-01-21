@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>结构确证</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body>
+		<!--header-->
+		<header>
+
+			<div class="wrap">
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<a href="index.html" class="logo2"><img src="img/logo2.png"></a>
+				<!--PC导航-->
+				<div class="menu hideDiv">
+					<ul>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+						<li>
+							<a href="javascript:;">研发服务</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="jingxing.html"><span class="yf1"></span>晶型研究</a></li>
+									<li><a href="jingxing_gy.html"><span class="yf2"></span>结晶工艺开发</a></li>
+									<li><a href="jingxing_cf.html"><span class="yf3"></span>处方前研究</a></li>
+									<li><a href="jingxing_jg.html"><span class="yf4"></span>结构确证</a></li>
+									<li><a href="jingxing_lh.html"><span class="yf5"></span>理化分析</a></li>
+									<div class="clearfix"></div>
+								</ul>
+
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="jishu.html">晶云学院</a>
+							<!-- <div class="down_list">
+								<ul>
+									<li><a href="jishu.html"><span class="xy1"></span>技术文章</a></li>
+									<li><a href="peixun.html"><span class="xy2"></span>培训资料</a></li>
+									<li><a href="wenxian.html"><span class="xy3"></span>经典文献</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div> -->
+						</li>
+						<li>
+							<a href="javascript:;">公司新闻</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="news.html"><span class="xw1"></span>公司新闻</a></li>
+									<li><a href="huodong.html"><span class="xw2"></span>公司活动</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="javascript:;">人才与发展</a>
+							<div class="down_list">
+								<ul>
+									<li><a href="zhaopin.html"><span class="rc1"></span>人才招聘</a></li>
+									<li><a href="shenghuo.html"><span class="rc2"></span>晶彩生活</a></li>
+									<li><a href=""><span class="rc3"></span>投递简历</a></li>
+								</ul>
+							</div>
+							<div class="nav_bg"></div>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+				</div>
+				<!--PC导航结束-->
+				<!--中英文切换-->
+				<div class="language hideDiv">
+					<a href="" class="active">中</a>
+					<span>/</span>
+					<a href="">En</a>
+				</div>
+				<!--中英文切换结束-->
+				<!--手机端导航-->
+				<!-- <button type="button" class="open"></button> -->
+				<button id="dl-menu-button2" class="close" style="">Open Menu</button>
+				<button id="dl-menu-button" class="opp">Open Menu</button>
+
+				<div id="dl-menu" class="dl-menuwrapper">
+
+					<!-- <button id="dl-menu-button">Open Menu</button> -->
+
+					<ul class="dl-menu">
+
+						<li><a href="index.html">首页</a></li>
+
+						<li><a href="about.html">关于我们</a></li>
+
+						<li><a href="javascript:;" class="nav">研发服务</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jingxing.html"><img src="img/nav1.png">晶型研究</a></li>
+								<li><a href="jingxing_gy.html"><img src="img/nav2.png">结晶工艺开发</a></li>
+								<li><a href="jingxing_cf.html"><img src="img/nav3.png">处方前研究</a></li>
+								<li><a href="jingxing_jg.html"><img src="img/nav4.png">结构确证</a></li>
+								<li><a href="jingxing_lh.html"><img src="img/nav5.png">理化分析</a></li>
+								<div class="clearfix">
+
+								</div>
+							</ul>
+						</li>
+
+						<li><a href="jishu.html" class="nav">晶云学院</a>
+							<!-- <ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="jishu.html"><img src="img/nav8.png">技术文章</a></li>
+								<li><a href="peixun.html"><img src="img/nav9.png">培训资料</a></li>
+								<li><a href="wenxian.html"><img src="img/nav10.png">经典文献</a></li>
+
+							</ul> -->
+						</li>
+						<li><a href="service.html" class="nav">公司新闻</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="news.html"><img src="img/nav6.png">公司新闻</a></li>
+								<li><a href="huodong.html"><img src="img/nav7.png">公司活动</a></li>
+
+							</ul>
+						</li>
+						<li><a href="service.html" class="nav">人才与发展</a>
+							<ul class="dl-submenu">
+
+								<li class="dl-back"><a href="#"><img src="img/back.png">
+										<p></p>
+									</a></li>
+
+								<li><a href="zhaopin.html"><img src="img/nav8.png">人才招聘</a></li>
+								<li><a href="shenghuo.html"><img src="img/nav9.png">晶彩生活</a></li>
+								<li><a href=""><img src="img/nav10.png">投递简历</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="touzi.html">投资者关系</a>
+						</li>
+					</ul>
+					<!--中英文切换-->
+					<div class="language2">
+						<a href="" class="active">中</a>
+						<span>/</span>
+						<a href="">En</a>
+					</div>
+					<!--中英文切换结束-->
+				</div>
+				<!--手机端导航结束-->
+			</div>
+		</header>
+		<!--header  end-->
+		<!--banner内页-->
+		<div class="banner_nei">
+			<p class="banner_p2">
+
+				结构确证
+				<span>晶云药物通过高成功率的单晶和MicroED方法解
+					决了众多药物分子 的结构确证难题，为制药企业成功
+					的项目申报提供数据支持。</span>
+
+
+			</p>
+			<img src="img/jiexi1.JPG" class="hideDiv">
+			<img src="img/jiegou_sj.png" class="showDiv" >
+		</div>
+		<!--banner结束-->
+		<!--二级导航-->
+		<p class="nav_btn showDiv">结构确证<span class="arrow-bottom"></span></p>
+		<div class="nav_nei">
+
+			<ul>
+				<li><a href="jingxing.html">晶型研究<span></span></a></li>
+				<li><a href="jingxing_gy.html">结晶工艺开发<span></span></a></li>
+				<li><a href="jingxing_cf.html">处方前研究<span></span></a></li>
+				<li><a href="jingxing_jg.html" class="now">结构确证<span></span></a></li>
+				<li><a href="jingxing_lh.html">理化分析<span></span></a></li>
+			</ul>
+		</div>
+		<!--二级导航结束-->
+
+		<!--单晶结构解析-->
+		<div class="jingxingDiv2 gongyiDiv1 jiexiDiv1">
+			<div class="wrap">
+				<!--左侧介绍-->
+				<div class="textDiv">
+					<p class="title_p">单晶结构解析</p>
+					<p class="text_p">
+						结构决定性质，为了确定化合物的结构，20世纪以来红外、紫外、质谱、核磁、单 晶衍射等技术手段纷纷登场。
+						而在这些技术中，单晶X-ray衍射分析（SC-XRD）为 探究化合物结构提供了一种精准的解决方案。<br><br>
+						单晶X射线衍射是确定晶体的原子和分子结构的分析技术，众所周知，晶体结构会导 致入射X射线束向多
+						个特定方向衍射。通过测量这些衍射光束的角度和强度，可以生 成晶体内电子密度的三维图，进而可
+						以确定晶体中原子的平均位置以及它们的化学键， 晶体学无序和各种其他信息。
+					</p>
+				</div>
+				<!--左侧介绍结束-->
+				<!--手机端图片-->
+				<img src="img/jiegou_sj1.png" class="showDiv">
+				<!--手机端图片结束-->
+				<!--右侧图片-->
+				<div class="imgDiv_fr hideDiv jgDiv">
+					<div class="jg_left">
+						<p class="jg_p1">分子结构<span></span></p>
+						<p class="jg_p1">绝对构型<span></span></p>
+					</div>
+					<div class="jg_right">
+						<p class="jg_p1"><span></span>结晶水研究</p>
+						<p class="jg_p1"><span></span>鉴定盐和共晶</p>
+						<p class="jg_p1"><span></span>晶体结构信息</p>
+					</div>
+					
+				</div>
+				<!--右侧图片结束-->
+				<div class="clearfix"></div>
+				<div class="content">
+					<p class="title_p2">单晶项目方案</p>
+					<ul>
+						<li>
+							<p class="imgDiv hideDiv"><img src="img/jiegou2.png"></p>
+							<!--手机端图片-->
+							<p class="imgDiv showDiv"><img src="img/jiegou_sj2.jpg"></p>
+							<div class="textDiv">
+								<span class="arrow-top"></span>
+								<img src="img/num_01.png">
+								<p class="title_p">培养单晶</p>
+								<p class="text_p">常规的方法主要包括缓慢挥发，气液渗透，缓慢降温与液面扩散</p>
+							</div>
+						</li>
+						<li>
+							<!--手机端图片-->
+							<p class="imgDiv showDiv"><img src="img/jiegou3.png"></p>
+							<div class="textDiv">
+								<!--手机端向上箭头-->
+								<span class="arrow-top showDiv"></span>
+								
+								<span class="arrow-bottom hideDiv"></span>
+								<img src="img/num_02.png">
+								<p class="title_p">数据收集</p>
+								<p class="text_p">性能优异，高分辨率，高亮度的单晶衍射仪是我们得到高质量的衍射数据的保证</p>
+							</div>
+							<p class="imgDiv hideDiv"><img src="img/jiegou3.png"></p>
+						</li>
+						<li>
+							<p class="imgDiv"><img src="img/jiegou4.png"></p>
+							<div class="textDiv">
+								<span class="arrow-top"></span>
+								<img src="img/num_03.png">
+								<p class="title_p">结构解析</p>
+								<p class="text_p">结构解析可以大致分为两步：结构初解与结构精修，最终获得空间全部原子的精确坐标及位移参数</p>
+							</div>
+						</li>
+						<li>
+							<!--手机端图片-->
+							<p class="imgDiv showDiv"><img src="img/jiegou5.png"></p>
+							<div class="textDiv">
+								<!--手机端向上箭头-->
+								<span class="arrow-top showDiv"></span>
+								<span class="arrow-bottom hideDiv"></span>
+								<img src="img/num_04.png">
+								<p class="title_p">绝对构型验证</p>
+								<p class="text_p">晶云目前同时采用Flack方法与Hooft方法对单晶结构数据中绝对构型判定进行验证，保证绝对构型确证的准确性</p>
+							</div>
+							<p class="imgDiv hideDiv"><img src="img/jiegou5.png"></p>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--单晶结构解析-结束-->
+		<!--MicroED结构解析-->
+		<div class="jingxingDiv1 gongyiDiv2">
+			<div class="wrap">
+				<p class="title_p">MicroED结构解析</p>
+				<p class="text_p text_p2">
+					微晶电子衍射（MicroED）是一种新颖的3D衍射技术。<br><br>
+
+					Micro ED与X射线衍射（XRD）的不同之处在于它使用电子束从目标样品中获得衍射图样。将样品相对于入射电子束倾斜，可以从多个晶体取向获得衍射图样。
+					因此，晶体结构可以在三个维度上映射，通过衍射数据缩减和结构确定的步骤，可以在三个维度上绘制晶体结构以及分子结构。
+
+				</p>
+				<!--图表-->
+				<img src="img/jieogu6.png">
+				<!--图表结束-->
+			</div>
+		</div>
+		<!--MicroED结构解析结束-->
+		<!--案例分析1-->
+		<div class="jingxingDiv3 gongyiDiv3">
+			<div class="wrap">
+				<p class="title">案例解析</p>
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">1</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">单晶项目案例<span></span></p>
+							<p class="text_p">
+								<span>单晶培养</span>
+								结合化合物的结构特性和晶云丰富的单晶培
+								养经验，通过优化培养方法，尽可能在有限
+								的物料和时间条件下得到高质量单晶样品。
+							</p>
+							<p class="text_p">
+								<span>结构确证</span>
+								准确解析化合物结构、手性和结晶水 / 溶剂
+								信息。
+							</p>
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>某抗生素化合物A有10+个手性中心，晶型盐型现象复杂，希望通过单晶培养和解析来确证绝对构型和晶型。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>化合物A分子量大(>1200)，结晶难度大，晶云通过细致专业地设计单晶培养试验条件，多轮次不断优化得到单晶样品，并成功解析。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>1. 采用缓慢挥发、汽液渗透、缓慢降温和液面扩散等方法设置单晶培养试验，在高温汽液渗透条件下得到了可用于解析的单晶样品。</li>
+								<li>2. 收集单晶数据并解析，结果显示该晶体属正交晶系，P212121空间群，晶胞中包含两个化合物A单体，其中一个为內盐，另一
+									个为盐酸盐，该晶体为化合物半盐酸盐。同时化合物的绝对构型得到确证，Flack参数为0.037(9)，Hooft参数为0.047(8)。</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--图片-->
+							<div class="tupian">
+								<img src="img/jiegou7.png">
+								<img src="img/jiegou8.png">
+								<div class="clearfix"></div>
+								<p>体视显微镜和化合物单晶的显微镜图</p>
+							</div>
+							<!--图片结束-->
+
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+
+
+			</div>
+		</div>
+		<!--案例分析1结束-->
+
+		<!--案例分析2-->
+		<div class="jingxingDiv3 gongyiDiv3 gongyiDiv4" style="padding-bottom: 100px;">
+			<div class="wrap">
+				<!--内容-->
+				<div class="content">
+					<!--左侧内容-->
+					<div class="case_fl">
+						<!--数字-->
+						<p class="case_num">2</p>
+						<!--数字结束-->
+						<!--简介-->
+						<div class="textDiv">
+							<p class="title_p">Micro ED案例<span></span></p>
+							<p class="text_p">
+								<span>技术优点</span>
+								1.适用于小尺寸的样品(< 200 nm)。<br>
+									2.强大的库仑相互作用可识别轻原子，例如
+									H和Li。<br>
+									3.由于较短的波长和较高的衍射强度，空
+									间分辨率更高。<br>
+									4.同时反馈衍射和成像信息。<br>
+							</p>
+
+						</div>
+						<!--简介结束-->
+						<button type="button" class="zhankai_btn  showDiv">展开案例<img src="img/down.png"></button>
+					</div>
+					<!--左侧内容结束-->
+					<!--右侧内容-->
+					<div class="case_fr hideDiv">
+						<!--背景信息-->
+						<div class="textDiv">
+							<p class="title_p"><img src="img/case_ico1.png">背景信息</p>
+							<ul>
+								<li>
+									<span></span>
+									<p>某示范化合物多晶型现象复杂，其中晶型X的鉴定存在挑战。</p>
+									<div class="clearfix"></div>
+								</li>
+								<li>
+									<span></span>
+									<p>晶型X单晶培养困难，晶体尺寸不足以用于单晶测试和解析。</p>
+									<div class="clearfix"></div>
+								</li>
+							</ul>
+						</div>
+						<!--背景信息结束-->
+						<!--晶云方案-->
+						<div class="textDiv textDiv2">
+							<p class="title_p"><img src="img/case_ico2.png">晶云方案</p>
+							<!--方案文字-->
+							<ul>
+								<li>晶云使用单晶培养试验中得到的粉末样品进行Micro ED测试，快速解析结构，确定晶型X为管道溶剂合物。</li>
+							</ul>
+							<!--方案文字结束-->
+							<!--图片-->
+							<div class="tupian2">
+								<img src="img/jiegou9.png" >
+								<img src="img/jiegou10.png" >
+							</div>
+							<!--图片结束-->
+
+						</div>
+						<!--晶云方案结束-->
+
+						<button type="button" class="shouqi_btn  showDiv">收起案例<img src="img/up.png"></button>
+					</div>
+					<!--右侧内容结束-->
+					<div class="clearfix"></div>
+
+				</div>
+				<!--内容结束-->
+			</div>
+		</div>
+		<!--案例分析2结束-->
+		
+		<!--联系我们-->
+		<div class="contactDiv contactDiv2">
+			<!-- <div class="title">
+				联系我们
+			</div> -->
+			<div class="wrap">
+				<div class="content">
+					<!--左侧联系方式-->
+					<div class="contact_fl">
+						<p class="title_p">联系晶云</p>
+						<ul>
+							<li>
+								<img src="img/tel_w.png">
+								<p>
+									<span>周经理：189-3459-7531/ 0512-69561921 转 807</span>
+									<span>高经理：189-3459-7529/ 0512-69561921 转 812</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<img src="img/email.png">
+								<p>
+									<span>collaboration@crystalpharmatech.com</span>
+								</p>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<!--业务咨询/求职招聘-->
+						<!-- <div class="foot_center_fr showDiv">
+							<div class="textDiv">
+								<p class="title_p">业务咨询</p>
+								<ul>
+									<li>
+										<span class="name">周女士：</span>
+										<p>
+											<span>手机 189-3459-7531 </span>
+											<span>座机 0512-69561921-807</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">高先生：</span>
+										<p>
+											<span>手机 189-3459-7529 </span>
+											<span>座机 0512-69561921-812</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>collaboration@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="textDiv">
+								<p class="title_p">求职招聘</p>
+								<ul>
+									<li>
+										<span class="name">程女士：</span>
+										<p>
+											<span>座机 0512-69561921-830</span>
+										</p>
+									</li>
+									<li>
+										<span class="name">邮箱：</span>
+										<p>
+											<span>learner@crystalpharmatech.com</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div> -->
+						<!--业务咨询/求职招聘结束-->
+					</div>
+					<!--左侧联系方式结束-->
+					<!--右侧留言列表-->
+					<div class="liuyan">
+						<form action="" method="">
+							<!--左侧留言框-->
+							<div class="form_fl">
+								<ul>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="姓名：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="电话：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="邮箱：" name="" id="" value="" />
+									</li>
+									<li>
+										<label>*</label>
+										<input type="" placeholder="公司：" name="" id="" value="" />
+									</li>
+									<li>
+										<label></label>
+										<input type="" placeholder="职位：" name="" id="" value="" />
+									</li>
+								</ul>
+							</div>
+							<!--左侧留言框结束-->
+							<!--右侧留言框-->
+							<div class="form_fr">
+								<ul>
+									<li>
+										<label>*</label>
+										<textarea type="" placeholder="留言：您要咨询的内容(具体服务项目、合作方式、价格等)" name="" id=""
+											value=""></textarea>
+									</li>
+									<li style="margin-top: -3px;">
+										<label>*</label>
+										<input type="" placeholder="请输入验证码：" name="" id="" value=""
+											style="width: 56%; float: left;" />
+										<p class="yzm"><img src="img/yzm.jpg"></p>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<input type="submit" id="" value="提交" />
+									</li>
+
+								</ul>
+							</div>
+							<!--右侧留言框结束-->
+						</form>
+					</div>
+					<!--右侧留言列表结束-->
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们结束-->
+		<!--foot-->
+		<footer>
+			<div class="wrap">
+				<!--左侧logo-->
+				<div class="logo_bott hideDiv">
+					<img src="img/logo_bott.png">
+				</div>
+				<!--左侧logo结束-->
+				<!--中间内容-->
+				<div class="foor_center hideDiv">
+					<!--底部导航-->
+					<div class="nav_bott">
+						<ul>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="service.html">研发服务</a></li>
+							<li><a href="xueyuan.html">晶云学院</a></li>
+							<li><a href="news.html">新闻动态</a></li>
+							<li><a href="rencai.html">人才与发展</a></li>
+							<li><a href="touzi.html">投资者关系</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!--底部导航结束-->
+					<!--联系方式-->
+					<div class="foot_contact">
+						<p class="com_name">苏州晶云药物科技股份有限公司</p>
+						<!--地址-->
+						<div class="address contact">
+							<img src="img/weizhi.png">
+							<p>
+								<span class="sp1">中国总部：</span>
+								<span class="sp2">苏州工业园区星湖街218号生物医药产业园一期（原生物纳米园）B4-101</span>
+							<div class="clearfix"></div>
+							</p>
+							<p>
+								<span class="sp1">美国分部：</span>
+								<span class="sp2">Suite 500-B, 3000 Eastpark Blvd, Cranbury,New Jersey 08512,
+									USA</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--地址结束-->
+						<!--电话-->
+						<div class="tel contact">
+							<img src="img/tel.png">
+							<p>
+								<span class="sp1">座机：</span>
+								<span class="sp2">0512-69566895</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--电话结束-->
+						<!--传真-->
+						<div class="tel contact">
+							<img src="img/chuanzhen.png">
+							<p>
+								<span class="sp1">传真：</span>
+								<span class="sp2">051269561922</span>
+							<div class="clearfix"></div>
+							</p>
+						</div>
+						<!--传真结束-->
+					</div>
+					<!--联系方式及结束-->
+					<!--业务咨询/求职招聘-->
+					<div class="foot_center_fr">
+						<div class="textDiv">
+							<p class="title_p">业务咨询</p>
+							<ul>
+								<li>
+									<span>周女士：</span>
+									<p>
+										<span>手机 189-3459-7531 </span>
+										<span>座机 0512-69561921-807</span>
+									</p>
+								</li>
+								<li>
+									<span>高先生：</span>
+									<p>
+										<span>手机 189-3459-7529 </span>
+										<span>座机 0512-69561921-812</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>collaboration@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="textDiv">
+							<p class="title_p">求职招聘</p>
+							<ul>
+								<li>
+									<span>程女士：</span>
+									<p>
+										<span>座机 0512-69561921-830</span>
+									</p>
+								</li>
+								<li>
+									<span>邮箱：</span>
+									<p>
+										<span>learner@crystalpharmatech.com</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务咨询/求职招聘结束-->
+				</div>
+				<!--中间内容结束-->
+				<!--右侧二维码-->
+				<div class="qrcard">
+					<p>关注我们</p>
+					<img src="img/qrcard.png">
+					<p>聚焦新药·关注晶型</p>
+				</div>
+				<!--右侧二维码结束-->
+				<div class="clearfix"></div>
+			</div>
+			<!--版权-->
+			<div class="banquan">
+				版权所有：© 2021 苏州晶云药物科技股份有限公司 苏ICP备11027398号-2
+			</div>
+			<!--版权结束-->
+		</footer>
+	</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!--手机导航-->
+<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dlmenu.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(function() {
+
+		$('#dl-menu').dlmenu();
+
+	});
+</script>
+
+<script type="text/javascript">
+	$(".dl-menu li .nav").click(function() {
+		var data = $(this).html()
+		console.log(data)
+		// $(".dl-back").css({"background":"red"})
+		$(".dl-back p").html(data)
+	})
+</script>
+<script type="text/javascript">
+	$(".zhankai_btn").click(function() {
+		$(this).parent().next().fadeIn(800)
+		$(this).hide()
+		$(".shouqi_btn").show()
+	})
+	$(".shouqi_btn").click(function() {
+		$(this).parent().slideToggle(200)
+		$(this).hide()
+		$(".zhankai_btn").show()
+	})
+</script>
